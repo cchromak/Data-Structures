@@ -1,7 +1,12 @@
 
 import java.util.*;
 
-//Chris Chromak
+/*Chris Chromak
+this code prints preorder, in order, and postoder
+as well as indicates the height of the trees.
+*/
+
+
 
 public class Tree {
 	private static class TNode {
@@ -65,7 +70,7 @@ public class Tree {
 
 	public void levelOrder() {
 		List<TNode> queue = new LinkedList<>();
-		queue.add(root); // create queue, add root to queue
+		queue.add(root); 
 		levelOrderPrint(queue);
 		System.out.println();
 	}
